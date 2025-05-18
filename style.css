@@ -1,0 +1,24 @@
+body{
+    background-image: url("redbull bg.jpg");
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+    margin: 0;
+}
+#clock-container{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+height: 10vh;
+margin-top: 100px;
+
+}
+
+#clock{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 64px;
+    font-weight: bold;
+    color:rgb(255, 222, 37);
+    text-shadow: 3px 3px 3px rgb(221, 14, 14);
+}
